@@ -17,7 +17,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v3
         with:
-          java-version: '11'   # 使用 JDK 11
+          java-version: '17'   # 使用 JDK 11
           distribution: 'temurin'
           cache: gradle
 
